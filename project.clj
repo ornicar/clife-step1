@@ -3,8 +3,7 @@
   :license {:name "WTFPL" :url "http://www.wtfpl.net"}
   :plugins [[lein-cljsbuild "1.0.4-SNAPSHOT"]]
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-2311"]
-                 [cljs-ajax "0.2.6"]]
+                 [org.clojure/clojurescript "0.0-2311"]]
   :cljsbuild
   {:builds
    {:dev {:source-paths ["src"]

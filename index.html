@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <style>
+      html, body {
+        text-align: center;
+        background: #404040;
+      }
+      canvas {
+        border: 3px solid #505050;
+        background: #202020;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="world"></canvas>
+    <script src="out/goog/base.js"></script>
+    <script src="clife.js"></script>
+    <script>goog.require('clife');</script>
+    <script>
+      window.onload = function() {
+        clife.hop();
+      };
+    </script>
+  </body>
+</html>
